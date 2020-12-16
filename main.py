@@ -15,6 +15,6 @@ if __name__ == '__main__':
     b = 0
     c = 1
     a = b + c
-
+    d = a + b
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
