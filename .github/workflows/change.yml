@@ -24,6 +24,7 @@ jobs:
 
       - name: Commit files
         env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
           CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
           CI_EMAIL: ${{ secrets.YOUR_GITHUB_EMAIL }}
         run: |
@@ -34,6 +35,7 @@ jobs:
       - name: Push changes
         if: env.push == 1
         env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
           CI_USER: ${{ secrets.YOUR_GITHUB_USER }}
           CI_TOKEN: ${{ secrets.YOUR_GITHUB_TOKEN }}
         run: |
