@@ -9,12 +9,18 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+def main():
+    print_hi(
+        'PyCharm ------------------- THIS IS A BIG LINE ---------------------------------------------------------------------------')
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm ------------------- THIS IS A BIG LINE ---------------------------------------------------------------------------')
-    b = 0
-    c = 1
-    a = b + c
-    d = a + b
+    print_hi(
+        'PyCharm ------------------- THIS IS A BIG LINE ---------------------------------------------------------------------------')
+    bas = 0
+    cas = 1
+    ast = bas + cas
+    das = ast + bas
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
