@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2020-12-22)
+### Feature
+* **test:** Test feature ([`6ac7648`](https://github.com/obedaeg/commit-tools/commit/6ac76482c109d11cbc38eb7cb755b1a0e3af9146))
+
 ## v0.3.0 (2020-12-22)
 ### Feature
 * **test:** Adding print message ([`3584716`](https://github.com/obedaeg/commit-tools/commit/3584716aca1daa2919d1d85d82058a031f374b4b))
