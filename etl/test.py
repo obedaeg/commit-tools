@@ -3,6 +3,9 @@ def function():
 
     print('foo')
 
+    ast = 1
+
+    print(ast)
 
 
 
